@@ -51,10 +51,10 @@
                 } else if (scale >= 950000) {
                     scaleText = Math.round(scale / 1000000) + "M";
                 } else {
-                    scaleText = Math.round(scale);
+                    scaleText = Math.round(scale).toLocaleString('de');
                 }
             } else{
-                scaleText = Math.round(scale).toString();
+                scaleText = Math.round(scale).toLocaleString('de');
             }
             var parts = ["1 : ", scaleText];
             if (this.options.scalePrefix) {

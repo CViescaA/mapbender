@@ -89,6 +89,9 @@ class ZoomBar extends AbstractElementService implements FloatingElement
             if (!empty($mapConfig['scales'])) {
                 $scales = $mapConfig['scales'];
                 asort($scales, SORT_NUMERIC | SORT_REGULAR);
+                foreach ($scales as $key => $val){
+                    $scales[$key] = number_format($val, 0, ',', '.');
+                }
             }
         }
         $withDefaults = $element->getConfiguration() + $this->getDefaultConfiguration();

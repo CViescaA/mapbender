@@ -76,7 +76,11 @@ $(function () {
                 var node = $('<li>');
                 node.addClass('choice');
                 node.attr('data-value', $(e).attr('value'));
-                node.text($(e).text());
+                if (isNaN($(e).text()) == true){
+                    node.text($(e).text())
+                } else {
+                    node.text((parseInt($(e).text()).toLocaleString('de')));
+                }
                 dropdownList.append(node);
             });
         }

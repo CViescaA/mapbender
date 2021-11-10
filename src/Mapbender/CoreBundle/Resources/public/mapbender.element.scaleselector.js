@@ -67,11 +67,11 @@
          */
         _updateScale: function() {
             var scale = this.mbMap.getModel().getCurrentScale(false);
-            this.$select.val(scale).trigger('dropdown.changevisual');
+            this.$select.val(scale.toLocaleString('de')).trigger('dropdown.changevisual');
             if (!this.$select.val()) {
                 // unconfigured fractional scale
                 var $displayArea = $('.dropdownValue', this.$select.closest('.dropdown', this.element.get(0)));
-                $displayArea.text(Math.round(scale));
+                $displayArea.text(Math.round(scale).toLocaleString('de'));
             }
         },
 
