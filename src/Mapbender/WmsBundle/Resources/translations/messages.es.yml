@@ -5,8 +5,8 @@ mb:
         label:
           example: Ejemplo
           wmsurl: 'Servicio URL'
-          wmsuser: User
-          wmspass: Password
+          wmsuser: Usuario
+          wmspass: Contraseña
       error:
         load: 'WMSLoader: las características del wms no pueden ser cargadas!'
       repo:
@@ -15,7 +15,7 @@ mb:
             formats: Formatos
         view:
           label:
-            metadata: Metadata
+            metadata: Metadatos
             contact: Contacto
             details: Detalles
             layers: Capas
@@ -23,7 +23,7 @@ mb:
             name: Nombre
             version: Versión
             originurl: 'Origen del URL'
-            abstract: Abstracto
+            abstract: Resumen
             onlineresource: 'Recurso en línea'
             exceptionformats: 'Formatos de Excepción'
             fees: Cuotas
@@ -35,13 +35,13 @@ mb:
             facsimile: Facsímil
             email: Email
             address: Dirección
-            addresstype: 'Tipo Dirección'
+            addresstype: 'Tipo de dirección'
             city: Ciudad
             state: Estado
             postcode: 'Código Postal'
             country: País
           message:
-            cautionscalehint: 'Precaución: Calculos de escala están sujetos a limitaciones de resolución ScaleHint en WMS 1.1.1!'
+            cautionscalehint: 'Atención: los cálculos de escala están sujetos a limitaciones de resolución ScaleHint en WMS 1.1.1!'
         instance:
           btn:
             save: Guardar
@@ -141,11 +141,11 @@ mb:
       section:
         common:
           _title: Common
-          title: Title
-          name: Name
+          title: Título
+          name: Nombre
           version: Version
           originUrl: 'Origin Url'
-          description: Description
+          description: Descripción
           onlineResource: OnlineResource
           exceptionFormats: 'Exception formats'
         useconditions:
@@ -153,33 +153,33 @@ mb:
           fees: Fees
           accessconstraints: 'Access constraints'
         contact:
-          _title: Contact
-          person: Person
-          position: Position
-          organization: Organization
-          voiceTelephone: Telephone
-          facsimileTelephone: Facsimile
+          _title: Contacto
+          person: Persona
+          position: Posición
+          organization: Organización
+          voiceTelephone: Teléfono
+          facsimileTelephone: Facsimil
           electronicMailAddress: Email
-          address: Address
-          addressType: 'Address type'
-          addressCity: City
-          addressStateOrProvince: 'State or province'
-          addressPostCode: 'Post code'
-          addressCountry: Country
+          address: Dirección
+          addressType: 'Tipo de dirección'
+          addressCity: Ciudad
+          addressStateOrProvince: 'Estado o provincia'
+          addressPostCode: 'Código postal'
+          addressCountry: País
         items:
-          _title: Layer
-          title: Title
-          name: Name
-          abstract: Abstracto
+          _title: Capa
+          title: Título
+          name: Nombre
+          abstract: Resumen
           srs: SRS
-          bbox: BoundingBox
+          bbox: CuadroDelimitador
     repo:
       instance:
         label:
-          dimensions: Dimensions
+          dimensions: Dimensiones
     dimhandler:
       class:
-        title: 'Dimensions handler'
+        title: 'Manipulador de dimensiones'
         description: ~
     dimensionsets:
       no_dimension: 'no dimension'

@@ -28,16 +28,16 @@ mb:
       sources: Fuentes
       source:
         add: 'Añadir fuente'
-        show_metadata: 'Mostrar metadata'
-        delete: 'Borrar fuente'
+        show_metadata: 'Mostrar metadatos'
+        delete: 'Eliminar fuente'
         new:
           add: 'Añadir fuente'
-        valid: 'Source valid'
-        notvalid: 'Source not valid'
+        valid: 'Fuente válida'
+        notvalid: 'Fuente no válida'
         no_source: 'Fuente no disponible'
-        update: 'Update source'
+        update: 'Actualizar fuente'
         status:
-          ok: 'Source OK'
+          ok: 'Fuente OK'
           toupdate: 'Source not current anymore'
           unreachable: 'Source unreachable'
       map:
@@ -48,7 +48,7 @@ mb:
         type: Tipo
         add: 'Añadir un nuevo elemento a'
         show_hide: 'Cambiar mostrar/ocultar el elemento'
-        no_element_added: No añadido elemento
+        no_element_added: El elemento no ha sido añadido
       zoombar:
         draggable: Mobible
       overview:
@@ -69,7 +69,7 @@ mb:
         show_hide: 'Cambiar mostrar/ocultar instancia'
         edit: 'Editar instancia'
         delete:
-          title: 'borrar instancia'
+          title: 'Borrar instancia'
           confirm: '¿Realmente quieres quitar la instancia de título <span class="italic">%instance_title%</span>?'
         no_instance_added: 'Instancia no añadida'
         no_layer_added: 'No layer added'
@@ -78,7 +78,7 @@ mb:
         view: Ver
         edit:
           title: 'Editar aplicación'
-          base_data: 'Dato Base'
+          base_data: 'Datos básicos'
         screenshot: Captura de pantalla
         layouts: Diseños
         layersets: 'Conjunto de capas'
@@ -95,14 +95,14 @@ mb:
         delete: 'Borrar aplicación'
         no_application: 'Aplicación no disponible'
         new:
-          title: 'Nueva Aplicación'
+          title: 'Nueva aplicación'
         create_use: 'Crear una nueva aplicación proveyendo información básica y luego usando el modo edición para añadir elementos y capas.'
         btn:
           create: Crear
           cancel: Cancelar
         upload:
           button: 'Seleccione un archivo'
-          label: 'No ha seleccionado un archivo'
+          label: 'No se ha seleccionado un archivo'
         export:
           addAcl: ACLs
           addSources: Fuentes
@@ -113,10 +113,10 @@ mb:
           addSources: Fuentes
           btn:
             import: Importar
-        title: Title
+        title: Título
         url:
-          title: 'URL Title'
-        description: Description
+          title: 'Título URL'
+        description: Descripción
         template: Plantilla
     source:
       serviceurl: 'Servicio URL'
@@ -165,4 +165,4 @@ mb:
           error: 'El archivo es demasiado grande (%uploadFileSize% bytes). El tamaño máximo permitido es %maxFileSize% bytes.'
           format_error: 'Este formato no esta soportado'
           resolution:
-            error: 'Es posible solamente subir archivos/fotos de %screenshotHeight% x %screenshotWidth% pixeles o de un tamano mayor. Su archivo es de %uploadWidth% x %uploadHeighth% pixeles.'
+            error: 'Solamente es posible subir archivos/fotos de %screenshotHeight% x %screenshotWidth% pixeles o de un tamano mayor. Su archivo es de %uploadWidth% x %uploadHeighth% pixeles.'

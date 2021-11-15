@@ -4,22 +4,22 @@ fom:
       email_body_html: '<p>Hola %user_username%,</p><p>Acabas de registrarte. Para concluir tu registro, favor, clic <a href="%url%">aqui</a>.</p>'
       done:
         title: Registro
-        congratulations: Felicitaciones!
-        account_activated: 'Tu cuenta ha sido satisfactoriamente activada y esta lista para usarla.'
-        back_to_login: 'Regresar al login'
+        congratulations: ¡Enhorabuena!
+        account_activated: 'Su cuenta ha sido activada satisfactoriamente y está lista para ser usada.'
+        back_to_login: 'Regresar al inicio de sesión'
       form:
         title: Registro
-        choose_password: 'Escoger clave'
-        confirm_password: 'Confirmar clave'
+        choose_password: 'Insertar contraseña'
+        confirm_password: 'Confirmar contraseña'
         email: Email
-        back_to_login: 'Regresar al login'
+        back_to_login: 'Regresar al inicio de sesión'
         register: Registrar
       email_subject: 'Tu registro'
       send:
         title: Registro
-        account_created: "Tu cuenta ha sido creada. Un email con tu codigo de activación\n            y enlace ha sido enviado a la dirección proveída."
-        back_to_login: 'Regresar al login'
-      email_body_text: 'Hola %user_username%, Acabas de registrarte. Para concluir con el registro, favor, llama en tu navegador el enlace %url%.'
+        account_created: "Su cuenta ha sido creada. Un email con su codigo de activación\n            y el enlace de confirmación han sido enviado a la dirección de correo electrónico indicada."
+        back_to_login: 'Regresar al inicio de sesión'
+      email_body_text: 'Hola %user_username%, Acabas de registrarte. Para concluir con el registro vete al enlace %url% en tu navegador.'
     group:
       index:
         groups: Grupos
@@ -28,35 +28,35 @@ fom:
         description: Descripción
         edit_group: 'Editar grupo'
         delete_group: 'Borrar grupo'
-        no_groups_available: 'No disponibilidad de grupos.'
+        no_groups_available: 'No existen grupos de usuarios.'
       form:
-        edit_group: 'Editar Grupo'
-        new_group: 'Nuevo Grupo'
+        edit_group: 'Editar grupo'
+        new_group: 'Nuevo grupo'
       container:
-        base_data: 'Dato base'
+        base_data: 'Datos básicos'
         users: Usuarios
         users_of_selected: 'usuarios de %users_count% seleccionados'
         no_user_exists: 'No existe usuario.'
     login:
       error_notocken:
-        password_reset: 'Reiniciar clave'
-        sorry: 'Lo siento!'
+        password_reset: 'Reiniciar contraseña'
+        sorry: '¡Lo sentimos!'
         no_such_tocken: 'El token no se encuentra. Si piensas que es un error, favor contacta al admnistrador del sitio.'
         contact: 'Contacto administrador'
-        back_to_login: 'Regresar al login'
+        back_to_login: 'Regresar al inicio de sesión'
       login:
-        title: Login
+        title: Iniciar sesión
         username: Usuario
-        password: Clave
+        password: Contraseña
         register: Registrar
-        forgot_password: 'Clave olvidada'
-        login: Login
+        forgot_password: 'Ha olvidado su contraseña'
+        login: Iniciar sesión
       error_tockenexp:
-        title: 'Clave Reiniciada'
-        sorry: 'Lo siento!'
+        title: 'Contraseña reiniciada'
+        sorry: '¡Lo sentimos!'
         registration_token_expired: 'Tu token de registro ha expirado. Desafortunadamente, tienes que solicitar un nuevo token.'
         request_new_token: 'Solicitar nuevo token'
-        back_to_login: 'Regresar al login'
+        back_to_login: 'Regresar al  inicio de sesión'
     user:
       index:
         title: Usuarios
@@ -73,18 +73,18 @@ fom:
         edit_user: 'Editar Usuario'
         new_user: 'Nuevo Usuario'
       container:
-        base_data: 'Dato base'
+        base_data: 'Datos básicos'
         profile: Perfil
         groups: Grupos
         security: Seguridad
-        choose_password: 'Escoge clave'
-        confirm_password: 'Confirma clave'
+        choose_password: 'Introducir contraseña'
+        confirm_password: 'Confirmar contraseña'
         name: Nombre
         users_of_selected: 'grupos de %users_count% seleccionados'
-        no_groups_defined: No hay grupos definidos
+        no_groups_defined: No existen grupos de usuarios.
         username: Usuario
-        description: Description
-        activated: activated
+        description: Descripción
+        activated: activada
     acl:
       index:
         access_control_lists: 'Lista de Control de Acceso Globales'
@@ -93,32 +93,32 @@ fom:
         edit: Editar
       required: 'Campos requeridos son marcados con etiquetas oscuras, mientras que campos opcionales tienen etiquetas claras.'
       edit:
-        edit_class_acl: 'Editar Class ACL para %name%'
+        edit_class_acl: 'Editar Classe ACL para %name%'
       groups_users:
         name: Nombre
-        no_goups_users: 'No están definidos grupos y usuarios.'
+        no_goups_users: 'No hay grupos de usuarios definidos.'
     password:
       email_body_html: "&lt;p&gt;Hola %user_username%,&lt;/p&gt;&lt;p&gt;Has solicitado una nueva clave.\n&lt;br /&gt;Favor clic &lt;a href=\"%url%\"&gt;aqui&lt;/a&gt;."
-      request_error_no_user: 'Usuario no puede ser encontrado.'
+      request_error_no_user: 'El usuario no puede ser encontrado.'
       done:
-        password_reset: 'Reiniciar Clave'
+        password_reset: 'Reiniciar contraseña'
         congratulations: Felicitaciones!
-        password_been_reset: 'Clave satisfactoriamente reiniciada.'
-        back_to_login: 'Regresar al login'
+        password_been_reset: 'Contraseña cambiada correctamente.'
+        back_to_login: 'Regresar al inicio de sesión'
       reset:
-        title: 'Reiniciar clave'
-        btn: 'Reiniciar clave'
+        title: 'Cambiar contraseña'
+        btn: 'Cambiar contraseña'
       form:
-        message: 'To reset your password please provide your username or your e-mail address.'
-        title: 'Clave olvidada'
+        message: 'Para cambiar su contraseña por favor inserte su nombre de usuario o su dirección de correo electrónico.'
+        title: 'Contraseña olvidada'
         username_email: 'Usuario o Email'
-        back_to_login: 'Regresar al login'
-        require_password: 'Clave requerida'
-      email_subject: 'Clave olvidada'
+        back_to_login: 'Regresar al inicio de sesión'
+        require_password: 'Contraseña requerida'
+      email_subject: 'Contraseña olvidada'
       send:
-        title: 'Reiniciar Clave'
-        email_been_sent: 'Un email con su codigo de reinicio y enlace ha sido enviado a la dirección proveída.'
-        back_to_login: 'Regresar al login'
+        title: 'Cambiar contraseña'
+        email_been_sent: 'Un email con su código de reinicio y el enlace de confirmación ha sido enviado a la dirección de correo electrónico indicada.'
+        back_to_login: 'Regresar al inicio de sesión'
       request:
         user_inactive: 'Este usuario esta inactivo. Favor activelo primero.'
       email_body_text: 'Hola %user_username%, Has solicitado una nueva clave. Llama en tu navegado al link "%url%".'
@@ -140,13 +140,13 @@ form:
   profile:
     basic:
       # @todo: all sub-entries
-      firstname: ~
-      lastName: ~
-      notes: ~
-      phone: ~
-      organizationName: ~
-      organizationRole: ~
-      street: ~
-      zipCode: ~
-      city: ~
-      country: ~
+      firstname: Nombre
+      lastName: Apellidos
+      notes: Información adicional
+      phone: Teléfono
+      organizationName: Organización
+      organizationRole: Tipo de organización
+      street: Calle
+      zipCode: Código Postal
+      city: Ciudad
+      country: País

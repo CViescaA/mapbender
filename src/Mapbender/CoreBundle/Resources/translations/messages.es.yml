@@ -1,6 +1,6 @@
 mb:
   actions:
-    accept: Ok    # appropriate?
+    accept: Aceptar    # appropriate?
     add: Añadir
     back: Atrás
     cancel: Cancelar
@@ -10,14 +10,14 @@ mb:
     filter: Filtrar
     print: Imprimir
     refresh: Actualizar
-    remove: Remover
+    remove: Eliminar
     reset: Reiniciar
     save: Guardar
     search: Buscar
   terms:
     application:
       singular: Aplicación
-      plural: Aplicaciónes
+      plural: Aplicaciones
     source:
       singular: Fuente
       plural: Fuentes
@@ -45,9 +45,9 @@ mb:
     aboutdialog:
       content:
         versionprefix: v.
-        learnmore: 'aprende mas sobre Mapbender'
-        linktitle: 'Visita nuestri sitio oficial de Mapbender'
-        website: website
+        learnmore: 'Aprende mas sobre Mapbender'
+        linktitle: 'Visita nuestro sitio oficial de Mapbender'
+        website: página web
       class:
         title: 'Diálogo Acerca de'
         description: 'Mostrar un diálogo acerca de'
@@ -63,13 +63,13 @@ mb:
         description: 'Campo de búsqueda sencillo en base JSON (e.g. Solr)'
       error:
         geometry:
-          missing: ~
+          missing: La entrada seleccionada no contiene una geometría.
     searchrouter:
-      no_results: 'No results'
+      no_results: 'No se han encontrado resultados'
       result_counter: 'Results: %count%'
       class:
         title: 'Buscar ruteador'
-        description: 'Búsqueda configurable del elemeteo de ruteo'
+        description: 'Búsqueda configurable del elemento de ruteo'
       tag:
         search: búsqueda
         router: ruteador
@@ -91,7 +91,7 @@ mb:
         sourcenotavailable: 'Una fuente con id %id% no está habilitado'
       class:
         title: ~
-        Description: 'Change the map''s background sources'
+        Description: 'Cambia las fuentes del mapa base'
       form:
         mesage: 'No fuentebase seteada esta definida.'
     legend:
@@ -102,7 +102,7 @@ mb:
         title: Leyenda
         description: 'La leyenda muestra la leyenda de las capas del mapa'
     ruler:
-      create_error: 'Regla: Tipo debe ser línea o área.'
+      create_error: 'Regla: debe ser de tipo línea o área.'
       class:
         title: 'Regla Línear/Área'
         description: 'Regla para dibujar una línea/área y presentar la longitud/área en un diálogo'
@@ -116,15 +116,15 @@ mb:
         quality: Calidad
         scale: Escala
         rotation: Rotación
-        legend: ~
+        legend: Imprimir la leyenda
       class:
-        title: 'Cliente de Impresión'
-        description: 'Renders un diálogo de Impresión'
+        title: 'Imprimir'
+        description: 'Diálogo de Impresión'
       btn:
-        deactivate: ~
-        activate: ~
+        deactivate: Desactivar marco para impresión
+        activate: Actovar marco para impresión
     overview:
-      nolayer: 'El elemento overview no tiene capa.'
+      nolayer: 'El elemento overview no contiene capas.'
       class:
         title: Overview
         description: 'Renders un pequeño mapa overview'
@@ -311,7 +311,7 @@ mb:
         line: ~
         polygon: ~
         rectangle: ~
-        circle: Circulo
+        circle: Círculo
         text: ~
       error:
         notext: ~
